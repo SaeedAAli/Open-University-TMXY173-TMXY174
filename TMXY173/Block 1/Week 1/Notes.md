@@ -8,12 +8,12 @@ Different kinds of software that people create for everyday people to use and to
 
 * Web Application - Asynchronous tasks like tablets, smart phones, refrigerators
 
-* Mobile Apps - Such as TikTok, Duoilingo, Any application that can be run on a Smart Phone
+* Mobile Apps - Such as TikTok, Duolingo, Any application that can be run on a Smart Phone
 
 * Firmware - Software hosted in special storage that provides the most basic functionality like computer bios, washing machine, cleaning program
 
 
-* Embedded System - Automative electronic unit, smart fridges with no control panel
+* Embedded System - automative electronic unit, smart fridge with no control panel
 
 
 ## 1.1.3 Software Considerations
@@ -30,7 +30,7 @@ Users aren't aware if they're data is being used which essentially tracking and 
 Security issues, privacy, that is a legal issue which can be viewed as breaching / breaking the law and this in return has a value for a filing suit
 
 
-## 1.2.1 Thinking of Code / Terms of Terminiology
+## 1.2.1 Thinking of Code / Terms of terminology
 
 **a script** is a Interpretable form of code that is usually used to control the operations of another program; the analogy is that a script telling an actor what to say and do
 
@@ -40,7 +40,7 @@ Technical Jargon - Lists, Arrays, DOP, LLM, SLM, GEN AI
 
 **A compilation** is converting a entire program from source code in a high level language to -> machine language code. The object code that then be run separately  from source code
 
-**Intepretation** is a process which high level source code guides the interpretation program from lines a time, with the interpreter changing how it responds in response within the code.
+**interpretation** is a process which high level source code guides the interpretation program from lines a time, with the interpreter changing how it responds in response within the code.
 
 
 
@@ -65,7 +65,7 @@ Think of it as CISC ->
 
 
 
-Final Activty - Use of software used within my Industry
+Final activity - Use of software used within my Industry
 IDE
 GIT
 Typescript, Vue, Javascript

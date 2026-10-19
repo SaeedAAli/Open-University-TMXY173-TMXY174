@@ -1,6 +1,6 @@
 ## TMXY174 - Unit 1 Block Project Management
 
-**What is a Project** - > is a temporary endeavour undertaken to create a unique project service or result. It can involve anything from glamarous events of fashion week to humanitarian aid efforts overseas. More specifically a project is a services of structured tasks, activities, and deliverables that are carefully executed to achieve a desired outcome
+**What is a Project** - > is a temporary endeavour undertaken to create a unique project service or result. It can involve anything from glamorous events of fashion week to humanitarian aid efforts overseas. More specifically a project is a services of structured tasks, activities, and deliverables that are carefully executed to achieve a desired outcome
 
 
 Points
@@ -13,16 +13,16 @@ Points
 
 # 1.1.1 Characteristics of your project
 
-**Project Ideatation** is a phase in which potential project are considered and evaluated to determine whether they are suitable to pursue
+**Project ideation** is a phase in which potential project are considered and evaluated to determine whether they are suitable to pursue
  |
-  -> Project will be unique in nature -> don't be afraid to stetch and challenge yourself to develop something that you can be proud off at the end of the module
+  -> Project will be unique in nature -> don't be afraid to stretch and challenge yourself to develop something that you can be proud off at the end of the module
 
   The project must be completed within a specific timeframe
     -> Done for TMA,EMA
 
 The project will be made up of structured activities and tasks
     -> creating a deliverable
-        -> output producted through completed tasks or activities contributing towards the overall project outcome
+        -> output produced through completed tasks or activities contributing towards the overall project outcome
 
 
 * The project must have clear goals
