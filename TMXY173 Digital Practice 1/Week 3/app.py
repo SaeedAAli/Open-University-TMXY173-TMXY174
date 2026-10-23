@@ -81,4 +81,64 @@ print (result)
 
 
 
-#A
+#Activtiy 3.9
+
+legal_name = "SAEED ALI"
+legal_name[0]
+
+jackpot = print(legal_name[0:5])
+
+##winner = jackpot.replace(str("__________"))
+
+##print(winner)
+
+
+
+
+
+## Final Activity for Unit 3
+
+
+Unit3_name = input(str("What is your fall name\n"))
+print(Unit3_name)
+
+Unit3_age = str(input("What is your age\n"))
+print(Unit3_age)
+
+Unit3_height = float(input("How Tall are you"))
+print(Unit3_height)
+
+unit3_mini_exercise = (f"Your name is {Unit3_name} You are {Unit3_age} and your height is {Unit3_height} m ")
+
+
+print(unit3_mini_exercise)
+
+
+from datetime import date
+
+
+
+age_arithmetic = int(input("How old are you\n"))
+
+user_age = age_arithmetic
+
+
+
+learning_score = int(input("What is your learning score\n"))
+
+squared_time = Unit3_age ** learning_score
+
+print(squared_time)
+
+
+
+
+
+
+
+new_name = print(Unit3_name.upper())
+
+extraction = Unit3_name[0: 5]
+
+
+
