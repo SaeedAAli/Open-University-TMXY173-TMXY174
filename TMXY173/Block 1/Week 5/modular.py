@@ -1,7 +1,6 @@
 """
 Functions allow you to encapsulate reusable blocks of code, making your programs more modular and maintainable
 """
-from os import name
 
 
 def greet():
@@ -92,5 +91,141 @@ class Dog:
         self.name = breed
         self.breed = breed
 
-def bark(self):
-    return f'{self.name} says woof!'
+    def bark(self):
+        return f'{self.name} says woof!'
+
+my_dog = Dog('Buddy', 'Golden Retriever')
+print(my_dog.bark())
+
+#The Self keyword is a special reference in Python that always points to the current instance of the class
+
+
+#The __init__ function is a special built-in function in Python that marks the constructor function
+
+
+# A constructor is a special method that runs when a new object is created. It sets up the initial state of the object by initialsing attributes
+# A instantiation is a process of creating a new instance of an object, typically by calling the constructor
+
+#5.2 Activity Practical
+
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model =  model
+        self.year = year
+
+    def description(self):
+        return f'{self.make}, {self.model}, {self.year}'
+
+point = Car('Toyota', 'Corolla', '2007')
+print(point.description())
+
+
+# 5.2.3 Class vs Instance attributes
+class Cat:
+    species = 'Feline' # Class attribute
+    def __init__(self, name):
+        self.name = name
+cat1 = Cat('Kitty')
+cat2 = Cat('Shiraz')
+
+print(cat1.species)
+print(cat2.name)
+
+
+"""
+# 1. CLASS (The Blueprint)
+# This defines the structure and behavior for all video game characters.
+class Character:
+    
+    # 2. CONSTRUCTOR (The Setup Function)
+    # This automatically runs the moment a new character is created.
+    def __init__(self, username, character_class):
+        
+        # 3. ATTRIBUTES (OOP Variables)
+        # These store unique data tied directly to each individual instance.
+        self.username = username          # A string attribute
+        self.character_class = character_class  # Another string attribute
+        self.level = 1                    # An integer attribute starting at 1
+        self.health = 100                 # A health attribute starting at 100
+
+    # 4. METHODS (OOP Functions)
+    # These are functions inside the class that use "self" to interact with the attributes.
+    def show_profile(self):
+        print(f"--- PROFILE: {self.username} ---")
+        print(f"Class: {self.character_class}")
+        print(f"Level: {self.level}")
+        print(f"Health: {self.health} HP\n")
+
+    def take_damage(self, amount):
+        self.health -= amount
+        print(f"💥 {self.username} took {amount} damage! Health is now {self.health} HP.")
+
+
+# ==========================================
+# 5. INSTANCES / OBJECTS (The Concrete Items)
+# ==========================================
+
+# We use the blueprint to create two completely separate characters in memory.
+player1 = Character(username="ShadowNinja", character_class="Rogue")
+player2 = Character(username="MerlinTheGreat", character_class="Wizard")
+
+# Let's interact with our instances to see how everything works together:
+
+# Calling methods on player1
+player1.show_profile()
+
+# Accessing a specific attribute on player2 directly using dot notation
+print(f"Checking data: player2's class is {player2.character_class}.\n")
+
+# Calling a method that modifies an attribute on player1
+player1.take_damage(25)
+print(f"Direct check: player1 health is now {player1.health} HP.")
+
+"""
+
+
+#.5.2.4 The__str__method
+
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+    def __str__(self):
+        return f"{self.make} {self.model}"
+my_car = Car('Toyota', 'Corolla')
+print(my_car) # Output: Toyota Corolla
+
+
+#5.2.5 Inheritance
+# What is inheritance: Inheritance is a feature of object-oriented programming where a class can inherit attributes and methods from another class=
+class Animal:
+    def speak(self):
+        return "Sound"
+    def alive(self):
+        return True
+class Cow(Animal):
+    def speak(self):
+        return "Moooo"
+my_cow = Cow()
+print(my_cow.alive()) # Output: True
+print(my_cow.speak()) # Output: Moooo
+
+
+"""
+5.3 Instant functions: an introduction to lambdas
+In python, lamda functions provide a concise way to create a function. Unlike standard functions using def syntax, lambdas are anonmyous functions, essentially not needing def syntax
+they are short functions 
+
+5.3.1 
+the basic syntax of a lambda function is lambda argument:expression
+e.g 3 * x
+
+tripler = lambda x: 3 * x
+print(tripler(5))
+"""
+
+#5.3.4 Examples and activities
+numbers = [1,2,3,4]
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)
