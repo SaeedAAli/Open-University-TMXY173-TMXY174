@@ -86,4 +86,6 @@ lists - ordered, mutable, duplicates
 sets - unordered, mutable, no duplicates
 dictionaries - key-value pairs, unordered, mutable
 array - used for storing num data, uniform type
+
 """
+
